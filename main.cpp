@@ -59,9 +59,6 @@ void stringsToMatrix(std::string msg)
 	int value = 0;
 	for (int i = 0; i < msg.length(); ++i)
 	{
-		if(row == 8 && i == 50){
-			std::cout << "WOW" << std::endl;
-		}
 		tempstring = "";
 		tempchar = msg[i];
 		if (tempchar == '|')
@@ -76,7 +73,6 @@ void stringsToMatrix(std::string msg)
 			}
 			i++;
 			std::string::size_type sz;
-			std::cout << tempstring << std::endl;
 			row = std::atoi(tempstring.c_str());
 
 		}
@@ -88,7 +84,8 @@ void stringsToMatrix(std::string msg)
 			pasttempchar = tempchar;
 		}
 		else
-		{	i++;
+		{
+			i++;
 			tempstring = "";
 			tempstring += tempchar;
 			tempchar = msg[i];
@@ -97,14 +94,13 @@ void stringsToMatrix(std::string msg)
 				tempstring += tempchar;
 				i++;
 			}
-			//std::cout << tempstring << std::endl;
 			value = std::atoi(tempstring.c_str());
 			for (int j = 0; j < value; ++j)
 			{
-				//std::cout << charmap.find(pasttempchar)->second << std::endl;
 				imageMatrix[spec][col[row]][row] = charmap.find(pasttempchar)->second;
 				col[row]++;
 			}
+			i--;
 		}
 
 	}
@@ -238,7 +234,7 @@ int main()
 		{
 			std::cout << std::endl;
 			for (int k = 0; k < mwidth; ++k) {
-				std::cout << imageMatrix[i][k][j] << std::endl;
+				std::cout << imageMatrix[i][k][j] << " ";
 			}
 		}
 	}

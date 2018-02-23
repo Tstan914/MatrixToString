@@ -3,4 +3,4 @@ project(MtoStringConv)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(MtoStringConv main.cpp)
+add_executable(MtoStringConv main.cpp ImageConverter.h ImageConverter.cpp)

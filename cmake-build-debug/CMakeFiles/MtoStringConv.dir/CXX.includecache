@@ -6,11 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/tristan/GitHubFolder/MtoStringConv/main.cpp
+/home/tristan/GitHubFolder/MtoStringConv/ImageConverter.cpp
+ImageConverter.h
+/home/tristan/GitHubFolder/MtoStringConv/ImageConverter.h
 iostream
 -
 time.h
 -
 map
 -
+
+/home/tristan/GitHubFolder/MtoStringConv/ImageConverter.h
+cstdlib
+-
+string
+-
+map
+-
+
+/home/tristan/GitHubFolder/MtoStringConv/main.cpp
+iostream
+-
+ImageConverter.h
+/home/tristan/GitHubFolder/MtoStringConv/ImageConverter.h
 

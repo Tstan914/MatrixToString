@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MtoStringConv.dir/main.cpp.o"
+  "CMakeFiles/MtoStringConv.dir/ImageConverter.cpp.o"
   "MtoStringConv.pdb"
   "MtoStringConv"
 )

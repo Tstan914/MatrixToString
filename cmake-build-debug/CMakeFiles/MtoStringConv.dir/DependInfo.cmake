@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/tristan/GitHubFolder/MtoStringConv/ImageConverter.cpp" "/home/tristan/GitHubFolder/MtoStringConv/cmake-build-debug/CMakeFiles/MtoStringConv.dir/ImageConverter.cpp.o"
   "/home/tristan/GitHubFolder/MtoStringConv/main.cpp" "/home/tristan/GitHubFolder/MtoStringConv/cmake-build-debug/CMakeFiles/MtoStringConv.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

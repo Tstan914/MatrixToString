@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tristan/GitHubFolder/MtoStringConv/ImageConverter.cpp">
+			<Option target="MtoStringConv"/>
+		</Unit>
+		<Unit filename="/home/tristan/GitHubFolder/MtoStringConv/ImageConverter.h">
+			<Option target="MtoStringConv"/>
+		</Unit>
 		<Unit filename="/home/tristan/GitHubFolder/MtoStringConv/main.cpp">
 			<Option target="MtoStringConv"/>
 		</Unit>

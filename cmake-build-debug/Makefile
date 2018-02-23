@@ -123,6 +123,33 @@ MtoStringConv/fast:
 	$(MAKE) -f CMakeFiles/MtoStringConv.dir/build.make CMakeFiles/MtoStringConv.dir/build
 .PHONY : MtoStringConv/fast
 
+ImageConverter.o: ImageConverter.cpp.o
+
+.PHONY : ImageConverter.o
+
+# target to build an object file
+ImageConverter.cpp.o:
+	$(MAKE) -f CMakeFiles/MtoStringConv.dir/build.make CMakeFiles/MtoStringConv.dir/ImageConverter.cpp.o
+.PHONY : ImageConverter.cpp.o
+
+ImageConverter.i: ImageConverter.cpp.i
+
+.PHONY : ImageConverter.i
+
+# target to preprocess a source file
+ImageConverter.cpp.i:
+	$(MAKE) -f CMakeFiles/MtoStringConv.dir/build.make CMakeFiles/MtoStringConv.dir/ImageConverter.cpp.i
+.PHONY : ImageConverter.cpp.i
+
+ImageConverter.s: ImageConverter.cpp.s
+
+.PHONY : ImageConverter.s
+
+# target to generate assembly for a file
+ImageConverter.cpp.s:
+	$(MAKE) -f CMakeFiles/MtoStringConv.dir/build.make CMakeFiles/MtoStringConv.dir/ImageConverter.cpp.s
+.PHONY : ImageConverter.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MtoStringConv"
+	@echo "... ImageConverter.o"
+	@echo "... ImageConverter.i"
+	@echo "... ImageConverter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
